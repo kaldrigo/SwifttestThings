@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LevelViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let repository: Repository = Repository()
+        
+        repository.printLevel()
+        
     }
 
 

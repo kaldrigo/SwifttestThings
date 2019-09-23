@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		911F08FCB96D2CA562BCBFA6 /* Pods_SwifttestThings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84168ED3AD56D0C6F62D6A1 /* Pods_SwifttestThings.framework */; };
 		A82254922333B69200D7B5BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82254912333B69200D7B5BD /* AppDelegate.swift */; };
-		A82254942333B69200D7B5BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82254932333B69200D7B5BD /* ViewController.swift */; };
-		A82254972333B69200D7B5BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82254952333B69200D7B5BD /* Main.storyboard */; };
+		A82254942333B69200D7B5BD /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82254932333B69200D7B5BD /* LevelViewController.swift */; };
+		A82254972333B69200D7B5BD /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82254952333B69200D7B5BD /* Activity.storyboard */; };
 		A82254992333B69300D7B5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82254982333B69300D7B5BD /* Assets.xcassets */; };
 		A822549C2333B69300D7B5BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A822549A2333B69300D7B5BD /* LaunchScreen.storyboard */; };
+		E01FB4FD2338E3F800DA7CAC /* Section.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01FB4FC2338E3F800DA7CAC /* Section.storyboard */; };
+		E01FB4FF2338E40900DA7CAC /* Level.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01FB4FE2338E40900DA7CAC /* Level.storyboard */; };
+		E01FB5042338E57500DA7CAC /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB5032338E57500DA7CAC /* SectionViewController.swift */; };
+		E01FB5062338E5E100DA7CAC /* ActivitiyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB5052338E5E100DA7CAC /* ActivitiyViewController.swift */; };
+		E01FB5092338E65D00DA7CAC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB5082338E65D00DA7CAC /* Activity.swift */; };
+		E01FB50B2338E87D00DA7CAC /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB50A2338E87D00DA7CAC /* Section.swift */; };
+		E01FB50D2338EBF600DA7CAC /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB50C2338EBF600DA7CAC /* Level.swift */; };
+		E01FB5102338ED2300DA7CAC /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB50F2338ED2300DA7CAC /* Repository.swift */; };
+		E01FB5112338FA4900DA7CAC /* Pods-SwifttestThings.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C6C65172533E40D428CBB /* Pods-SwifttestThings.debug.xcconfig */; };
+		E01FB5122338FA4D00DA7CAC /* Pods-SwifttestThings.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F223535316A95EE1CC464060 /* Pods-SwifttestThings.release.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B5C6C65172533E40D428CBB /* Pods-SwifttestThings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttestThings.debug.xcconfig"; path = "Target Support Files/Pods-SwifttestThings/Pods-SwifttestThings.debug.xcconfig"; sourceTree = "<group>"; };
 		A822548E2333B69200D7B5BD /* SwifttestThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifttestThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82254912333B69200D7B5BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A82254932333B69200D7B5BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A82254962333B69200D7B5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A82254932333B69200D7B5BD /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		A82254962333B69200D7B5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Activity.storyboard; sourceTree = "<group>"; };
 		A82254982333B69300D7B5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A822549B2333B69300D7B5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A822549D2333B69300D7B5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01FB4FC2338E3F800DA7CAC /* Section.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Section.storyboard; sourceTree = "<group>"; };
+		E01FB4FE2338E40900DA7CAC /* Level.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Level.storyboard; sourceTree = "<group>"; };
+		E01FB5032338E57500DA7CAC /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		E01FB5052338E5E100DA7CAC /* ActivitiyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiyViewController.swift; sourceTree = "<group>"; };
+		E01FB5082338E65D00DA7CAC /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		E01FB50A2338E87D00DA7CAC /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		E01FB50C2338EBF600DA7CAC /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		E01FB50F2338ED2300DA7CAC /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		E84168ED3AD56D0C6F62D6A1 /* Pods_SwifttestThings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifttestThings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F223535316A95EE1CC464060 /* Pods-SwifttestThings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttestThings.release.xcconfig"; path = "Target Support Files/Pods-SwifttestThings/Pods-SwifttestThings.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,7 +64,6 @@
 				7B5C6C65172533E40D428CBB /* Pods-SwifttestThings.debug.xcconfig */,
 				F223535316A95EE1CC464060 /* Pods-SwifttestThings.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,14 +96,63 @@
 		A82254902333B69200D7B5BD /* SwifttestThings */ = {
 			isa = PBXGroup;
 			children = (
+				E01FB50E2338ECAF00DA7CAC /* Repository */,
+				E01FB5072338E64400DA7CAC /* Model */,
+				E01FB5022338E4E100DA7CAC /* Support */,
+				E01FB5012338E47500DA7CAC /* Views */,
+				E01FB5002338E45C00DA7CAC /* Controllers */,
 				A82254912333B69200D7B5BD /* AppDelegate.swift */,
-				A82254932333B69200D7B5BD /* ViewController.swift */,
-				A82254952333B69200D7B5BD /* Main.storyboard */,
 				A82254982333B69300D7B5BD /* Assets.xcassets */,
-				A822549A2333B69300D7B5BD /* LaunchScreen.storyboard */,
-				A822549D2333B69300D7B5BD /* Info.plist */,
 			);
 			path = SwifttestThings;
+			sourceTree = "<group>";
+		};
+		E01FB5002338E45C00DA7CAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A82254932333B69200D7B5BD /* LevelViewController.swift */,
+				E01FB5032338E57500DA7CAC /* SectionViewController.swift */,
+				E01FB5052338E5E100DA7CAC /* ActivitiyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E01FB5012338E47500DA7CAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A822549A2333B69300D7B5BD /* LaunchScreen.storyboard */,
+				E01FB4FC2338E3F800DA7CAC /* Section.storyboard */,
+				A82254952333B69200D7B5BD /* Activity.storyboard */,
+				E01FB4FE2338E40900DA7CAC /* Level.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E01FB5022338E4E100DA7CAC /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A822549D2333B69300D7B5BD /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E01FB5072338E64400DA7CAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E01FB5082338E65D00DA7CAC /* Activity.swift */,
+				E01FB50A2338E87D00DA7CAC /* Section.swift */,
+				E01FB50C2338EBF600DA7CAC /* Level.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E01FB50E2338ECAF00DA7CAC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E01FB50F2338ED2300DA7CAC /* Repository.swift */,
+			);
+			name = Repository;
+			path = "Repositório";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A822549C2333B69300D7B5BD /* LaunchScreen.storyboard in Resources */,
+				E01FB5122338FA4D00DA7CAC /* Pods-SwifttestThings.release.xcconfig in Resources */,
 				A82254992333B69300D7B5BD /* Assets.xcassets in Resources */,
-				A82254972333B69200D7B5BD /* Main.storyboard in Resources */,
+				A82254972333B69200D7B5BD /* Activity.storyboard in Resources */,
+				E01FB4FF2338E40900DA7CAC /* Level.storyboard in Resources */,
+				E01FB5112338FA4900DA7CAC /* Pods-SwifttestThings.debug.xcconfig in Resources */,
+				E01FB4FD2338E3F800DA7CAC /* Section.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,20 +256,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82254942333B69200D7B5BD /* ViewController.swift in Sources */,
+				A82254942333B69200D7B5BD /* LevelViewController.swift in Sources */,
+				E01FB50B2338E87D00DA7CAC /* Section.swift in Sources */,
 				A82254922333B69200D7B5BD /* AppDelegate.swift in Sources */,
+				E01FB5102338ED2300DA7CAC /* Repository.swift in Sources */,
+				E01FB5062338E5E100DA7CAC /* ActivitiyViewController.swift in Sources */,
+				E01FB5092338E65D00DA7CAC /* Activity.swift in Sources */,
+				E01FB50D2338EBF600DA7CAC /* Level.swift in Sources */,
+				E01FB5042338E57500DA7CAC /* SectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A82254952333B69200D7B5BD /* Main.storyboard */ = {
+		A82254952333B69200D7B5BD /* Activity.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A82254962333B69200D7B5BD /* Base */,
 			);
-			name = Main.storyboard;
+			name = Activity.storyboard;
 			sourceTree = "<group>";
 		};
 		A822549A2333B69300D7B5BD /* LaunchScreen.storyboard */ = {
@@ -336,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwifttestThings/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwifttestThings/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,7 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwifttestThings/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwifttestThings/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

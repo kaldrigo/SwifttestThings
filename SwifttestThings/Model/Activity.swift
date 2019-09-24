@@ -1,8 +1,13 @@
 //
+//<<<<<<< HEAD
 //  Atividade.swift
 //  SwifttestThings
 //
 //  Created by Bruno Melo da Silva on 23/09/19.
+//  Activity.swift
+//  SwifttestThings
+
+//  Created by Rodrigo Azeredo on 23/09/19.
 //  Copyright © 2019 Rodrigo Azeredo. All rights reserved.
 //
 

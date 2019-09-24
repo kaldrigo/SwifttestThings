@@ -12,7 +12,7 @@ struct Activity {
     var section: String = ""
     var name: String = ""
     var description: String = ""
-    var examplo: String = ""
+    var example: String = ""
     var exercise: String = ""
     var responseUser: String = ""
     var response: String = ""

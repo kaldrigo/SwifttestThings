@@ -21,8 +21,20 @@ struct Repository {
         levels = [levelOne, levelTwo]
     }
     
+    
+    
+    
     func printLevel() {
-        print(levels[0])
+        var temp = 1
+        for v in levels {
+            print("\n----Level \(temp)----\n")
+            print(v)
+            temp += 1
+        }
+    }
+    
+    func getLevels() ->[Level] {
+        return levels
     }
     
 }

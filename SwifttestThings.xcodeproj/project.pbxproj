@@ -23,6 +23,7 @@
 		E01FB5102338ED2300DA7CAC /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB50F2338ED2300DA7CAC /* Repository.swift */; };
 		E01FB5112338FA4900DA7CAC /* Pods-SwifttestThings.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7B5C6C65172533E40D428CBB /* Pods-SwifttestThings.debug.xcconfig */; };
 		E01FB5122338FA4D00DA7CAC /* Pods-SwifttestThings.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F223535316A95EE1CC464060 /* Pods-SwifttestThings.release.xcconfig */; };
+		E01FB5152339124E00DA7CAC /* customLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB5142339124E00DA7CAC /* customLevelTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E01FB50A2338E87D00DA7CAC /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		E01FB50C2338EBF600DA7CAC /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		E01FB50F2338ED2300DA7CAC /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E01FB5142339124E00DA7CAC /* customLevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customLevelTableViewCell.swift; sourceTree = "<group>"; };
 		E84168ED3AD56D0C6F62D6A1 /* Pods_SwifttestThings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifttestThings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F223535316A95EE1CC464060 /* Pods-SwifttestThings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttestThings.release.xcconfig"; path = "Target Support Files/Pods-SwifttestThings/Pods-SwifttestThings.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 		A82254902333B69200D7B5BD /* SwifttestThings */ = {
 			isa = PBXGroup;
 			children = (
+				E01FB513233911C500DA7CAC /* Library */,
 				E01FB50E2338ECAF00DA7CAC /* Repository */,
 				E01FB5072338E64400DA7CAC /* Model */,
 				E01FB5022338E4E100DA7CAC /* Support */,
@@ -153,6 +156,14 @@
 			);
 			name = Repository;
 			path = "Repositório";
+			sourceTree = "<group>";
+		};
+		E01FB513233911C500DA7CAC /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E01FB5142339124E00DA7CAC /* customLevelTableViewCell.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,8 @@
 				A82254922333B69200D7B5BD /* AppDelegate.swift in Sources */,
 				E01FB5102338ED2300DA7CAC /* Repository.swift in Sources */,
 				E01FB5062338E5E100DA7CAC /* ActivitiyViewController.swift in Sources */,
+				E01FB5092338E65D00DA7CAC /* Activity.swift in Sources */,
+				E01FB5152339124E00DA7CAC /* customLevelTableViewCell.swift in Sources */,
 				E01FB50D2338EBF600DA7CAC /* Level.swift in Sources */,
 				A88BE987233903A900005D68 /* Activity.swift in Sources */,
 				E01FB5042338E57500DA7CAC /* SectionViewController.swift in Sources */,

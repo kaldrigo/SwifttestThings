@@ -13,11 +13,11 @@
 		A82254972333B69200D7B5BD /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82254952333B69200D7B5BD /* Activity.storyboard */; };
 		A82254992333B69300D7B5BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82254982333B69300D7B5BD /* Assets.xcassets */; };
 		A822549C2333B69300D7B5BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A822549A2333B69300D7B5BD /* LaunchScreen.storyboard */; };
+		A88BE987233903A900005D68 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BE986233903A900005D68 /* Activity.swift */; };
 		E01FB4FD2338E3F800DA7CAC /* Section.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01FB4FC2338E3F800DA7CAC /* Section.storyboard */; };
 		E01FB4FF2338E40900DA7CAC /* Level.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01FB4FE2338E40900DA7CAC /* Level.storyboard */; };
 		E01FB5042338E57500DA7CAC /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB5032338E57500DA7CAC /* SectionViewController.swift */; };
 		E01FB5062338E5E100DA7CAC /* ActivitiyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB5052338E5E100DA7CAC /* ActivitiyViewController.swift */; };
-		E01FB5092338E65D00DA7CAC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB5082338E65D00DA7CAC /* Activity.swift */; };
 		E01FB50B2338E87D00DA7CAC /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB50A2338E87D00DA7CAC /* Section.swift */; };
 		E01FB50D2338EBF600DA7CAC /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB50C2338EBF600DA7CAC /* Level.swift */; };
 		E01FB5102338ED2300DA7CAC /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01FB50F2338ED2300DA7CAC /* Repository.swift */; };
@@ -35,11 +35,11 @@
 		A82254982333B69300D7B5BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A822549B2333B69300D7B5BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A822549D2333B69300D7B5BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88BE986233903A900005D68 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		E01FB4FC2338E3F800DA7CAC /* Section.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Section.storyboard; sourceTree = "<group>"; };
 		E01FB4FE2338E40900DA7CAC /* Level.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Level.storyboard; sourceTree = "<group>"; };
 		E01FB5032338E57500DA7CAC /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
 		E01FB5052338E5E100DA7CAC /* ActivitiyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiyViewController.swift; sourceTree = "<group>"; };
-		E01FB5082338E65D00DA7CAC /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		E01FB50A2338E87D00DA7CAC /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		E01FB50C2338EBF600DA7CAC /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		E01FB50F2338ED2300DA7CAC /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -142,9 +142,9 @@
 		E01FB5072338E64400DA7CAC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E01FB5082338E65D00DA7CAC /* Activity.swift */,
 				E01FB50A2338E87D00DA7CAC /* Section.swift */,
 				E01FB50C2338EBF600DA7CAC /* Level.swift */,
+				A88BE986233903A900005D68 /* Activity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,6 +275,7 @@
 				E01FB5092338E65D00DA7CAC /* Activity.swift in Sources */,
 				E01FB5152339124E00DA7CAC /* customLevelTableViewCell.swift in Sources */,
 				E01FB50D2338EBF600DA7CAC /* Level.swift in Sources */,
+				A88BE987233903A900005D68 /* Activity.swift in Sources */,
 				E01FB5042338E57500DA7CAC /* SectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

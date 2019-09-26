@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		911F08FCB96D2CA562BCBFA6 /* Pods_SwifttestThings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84168ED3AD56D0C6F62D6A1 /* Pods_SwifttestThings.framework */; };
+		92315907233CE55B0006FC67 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92315906233CE55B0006FC67 /* Login.storyboard */; };
+		9231590B233CE5F90006FC67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231590A233CE5F90006FC67 /* LoginViewController.swift */; };
 		A82254922333B69200D7B5BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82254912333B69200D7B5BD /* AppDelegate.swift */; };
 		A82254942333B69200D7B5BD /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82254932333B69200D7B5BD /* LevelViewController.swift */; };
 		A82254972333B69200D7B5BD /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82254952333B69200D7B5BD /* Activity.storyboard */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		7B5C6C65172533E40D428CBB /* Pods-SwifttestThings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifttestThings.debug.xcconfig"; path = "Target Support Files/Pods-SwifttestThings/Pods-SwifttestThings.debug.xcconfig"; sourceTree = "<group>"; };
+		92315906233CE55B0006FC67 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9231590A233CE5F90006FC67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A822548E2333B69200D7B5BD /* SwifttestThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifttestThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82254912333B69200D7B5BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A82254932333B69200D7B5BD /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 				A82254932333B69200D7B5BD /* LevelViewController.swift */,
 				E01FB5032338E57500DA7CAC /* SectionViewController.swift */,
 				E01FB5052338E5E100DA7CAC /* ActivitiyViewController.swift */,
+				9231590A233CE5F90006FC67 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 				E01FB4FC2338E3F800DA7CAC /* Section.storyboard */,
 				A82254952333B69200D7B5BD /* Activity.storyboard */,
 				E01FB4FE2338E40900DA7CAC /* Level.storyboard */,
+				92315906233CE55B0006FC67 /* Login.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92315907233CE55B0006FC67 /* Login.storyboard in Resources */,
 				A822549C2333B69300D7B5BD /* LaunchScreen.storyboard in Resources */,
 				E01FB5122338FA4D00DA7CAC /* Pods-SwifttestThings.release.xcconfig in Resources */,
 				A82254992333B69300D7B5BD /* Assets.xcassets in Resources */,
@@ -272,10 +279,10 @@
 				A82254922333B69200D7B5BD /* AppDelegate.swift in Sources */,
 				E01FB5102338ED2300DA7CAC /* Repository.swift in Sources */,
 				E01FB5062338E5E100DA7CAC /* ActivitiyViewController.swift in Sources */,
-				E01FB5092338E65D00DA7CAC /* Activity.swift in Sources */,
 				E01FB5152339124E00DA7CAC /* customLevelTableViewCell.swift in Sources */,
 				E01FB50D2338EBF600DA7CAC /* Level.swift in Sources */,
 				A88BE987233903A900005D68 /* Activity.swift in Sources */,
+				9231590B233CE5F90006FC67 /* LoginViewController.swift in Sources */,
 				E01FB5042338E57500DA7CAC /* SectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
